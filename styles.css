@@ -1,47 +1,47 @@
 /* ----------------- Class CSS ----------------- */
 
-.about{
+.about {
     width:400px;
     margin: auto;
 }
 
-.about-team{
+.about-team {
     color:rgb(82, 81, 81)
 }
 
-.authors{
+.authors {
     background-color: #dbe3e7;
 }
 
-.body{
+.body {
     background-color: rgb(90, 92, 92);
 }
 
-.footer{
+.footer {
     background-color: #ebe6aa;
 }
 
-.footer-details{
+.footer-details {
     color: #1c1c1d
 }
 
-.footer-details a i{
+.footer-details a i {
     color: #1c1c1d
 }
 
-.footer-details p{
+.footer-details p {
     font-size: 1rem;
 }
 
-.icon-white{            /* Arrow icon at bottom of page */
+.icon-white {
     color: #FFFFFF;
 }
 
-.nb-background-color{   /* navbar background color */
+.nb-background-color {   /* navbar background color */
     background-color: #ebe6aa;
 }
 
-.nbMenuItem{               /* navbar link text properties */
+.nbMenuItem {               /* navbar link text properties */
     font-size:25px;
     margin-left: 10px;
     margin-right: 10px;
@@ -49,25 +49,33 @@
     color: #38393a;
 }
 
-.overview{
+.overview {
     background-color: #dbe3e7;
 }
 
-.ovPadLeft{
+.ovPadLeft {
     padding-left: 20px;
 }
 
-.ovPadRight{  
+.ovPadRight {  
     padding-right: 20px;
 }
 
-.procedure{
+.procedure {
     background-color: #dbe3e7;
     padding: 1px;
 }
 
-.showcase{
+.showcase {
     background-color: #5b6468; /*#0096c7*/
+}
+
+.logo {
+    transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+.logo:hover {
+    transform: scale(1.1);
 }
 
 /* ----------------- ID CSS ----------------- */
@@ -76,8 +84,12 @@
 .hover-underline-animation {
     display: inline-block;
     position: relative;
-    /*color: #0087ca;*/
-  }
+    color: #161717;
+}
+
+.hover-underline-animation:hover {
+    color: #161717
+}
   
 .hover-underline-animation:after {
     content: '';
@@ -87,7 +99,7 @@
     height: 2px;
     bottom: 0;
     left: 0;
-    background-color: #eae6e6;
+    background-color: #090808;
     /*transform-origin: bottom right;*/
     transition: transform 0.35s ease-out;
 }
