@@ -18,7 +18,19 @@
 }
 
 .footer{
-    background-color: #023E8A;
+    background-color: #ebe6aa;
+}
+
+.footer-details{
+    color: #1c1c1d
+}
+
+.footer-details a i{
+    color: #1c1c1d
+}
+
+.footer-details p{
+    font-size: 1rem;
 }
 
 .icon-white{            /* Arrow icon at bottom of page */
@@ -26,13 +38,15 @@
 }
 
 .nb-background-color{   /* navbar background color */
-    background-color: #023E8A;
+    background-color: #ebe6aa;
 }
 
 .nbMenuItem{               /* navbar link text properties */
     font-size:25px;
     margin-left: 10px;
     margin-right: 10px;
+    font-weight: bold;
+    color: #38393a;
 }
 
 .overview{
@@ -53,7 +67,7 @@
 }
 
 .showcase{
-    background-color: #8fa3ab; /*#0096c7*/
+    background-color: #5b6468; /*#0096c7*/
 }
 
 /* ----------------- ID CSS ----------------- */
